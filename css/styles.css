@@ -1,48 +1,54 @@
 body {
-    background-color: black;
+    background-image: url(../img/food-pattern.jpeg);
+    background-repeat: repeat;
 }
 img {
     width: 200px;
     height: 200px;
     padding: 10px;
     margin: 30px;
-    border: dashed 20px deepskyblue;
+    border: dashed 20px rgb(5, 134, 113, 100);
     border-radius: 30px 150px 30px 150px;
-}
+    border-color: #2bb8a5;
+    position: relative;
+    left: 100px;
 
+}
 .title {
   font-family: Arial, Helvetica, sans-serif;
-  color:rgb(71, 12, 126);
-  background-color: black;
-  text-shadow: 4px 4px 4px #1468d6, 2px 2px 2px #0d6d00 ;
+  color: #000000;
+  background-color: #757575;
   font-style: italic;
   text-decoration: underline;
-  border: solid 10px black;
+  border: solid 10px #34afd4;
   
 }
 h1 {
-    60px
+  color: #fdfdfd;
+  text-shadow: 4px 4px 1px #22dde9, 2px 2px 2px #e626d6;
 }
 .head {
   font-family: Arial, Helvetica, sans-serif;
   color: #22dde9;
-  background-color: ;
+  background-color: #424242;
 }
-.info {
+#steps,
+#ingredients {
   font-family: Arial, Helvetica, sans-serif;
-font-size: small;
-  border: solid 15px #999999;
-  border-radius: 20px 20px 20px 20px;
+  font-size: small;
+  color:#000000
+  border: solid 10px #5184eb;
+  border-radius: 30px;
   padding: 10px;
   margin: 30px;
 }
-p {
-    font-size: 16px;
-}
-#navigation {
-    border: dotted 3px #1468d6;
+
+nav {
+    border: dotted 10px #5184eb;
     padding: 5px;
     margin:5px;
+    text-align: center;
+     
 }
 ol {
   list-style: upper-roman inside none;
@@ -51,12 +57,12 @@ ul {
     list-style: square inside none;
 }
 a {
-    color:rgb(71, 12, 126)
+    color:rgba(233, 8, 147, 0.678)
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 a:hover {
-  color: chartreuse;
+  color: rgb(0, 195, 255);
     font-family: Georgia, 'Times New Roman', Times, serif
   ;
 }
