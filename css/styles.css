@@ -1,37 +1,79 @@
 body {
     background-image: url(../img/food-pattern.jpeg);
     background-repeat: repeat;
-}
+  }
 img {
     width: 200px;
     height: 200px;
     padding: 10px;
     margin: 30px;
-    border: dashed 20px rgb(5, 134, 113, 100);
+    border: dashed 20px #00ffea;
     border-radius: 30px 150px 30px 150px;
-    border-color: #2bb8a5;
     position: relative;
     left: 100px;
-
+  }
+ol {
+  list-style: upper-roman inside none;
+  }
+ul {
+    list-style: square inside none;
+  }
+a {
+    color:rgba(0, 0, 0, 0.678)
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+  }
+a:hover {
+  color: rgb(7, 8, 8);
+  font-family: Georgia, 'Times New Roman', Times, serif
+  ;
+  }
+a:visited {
+  color: #00ffea;
+  }
+nav {
+  border: dotted 10px #070707;
+  padding: 5px;
+  margin:5px;
+  text-align: center;
+  }
+nav:visited {
+  color:#8f95ec
 }
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   background-color: #757575;
   font-style: italic;
   text-decoration: underline;
-  border: solid 10px #34afd4;
-  
+  border: solid 10px #00ffea;
+  display: flex;
 }
-h1 {
-  color: #fdfdfd;
-  text-shadow: 4px 4px 1px #22dde9, 2px 2px 2px #e626d6;
-}
-.head {
+
+.head,
+.info {
   font-family: Arial, Helvetica, sans-serif;
-  color: #22dde9;
-  background-color: #424242;
+  color:#000000;
+  border: solid 5px #00ffea;
+
+  background-color: #757575;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+
+#main-title {
+  color: #00ffea;
+  text-shadow: 4px 4px 1px #020808, 2px 2px 2px #464546;
+  
+  }
+#bottom-logo {
+  color: #00ffea;
+  text-shadow: 4px 4px 1px #020808, 2px 2px 2px #464546;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  }
 #steps,
 #ingredients {
   font-family: Arial, Helvetica, sans-serif;
@@ -43,26 +85,3 @@ h1 {
   margin: 30px;
 }
 
-nav {
-    border: dotted 10px #5184eb;
-    padding: 5px;
-    margin:5px;
-    text-align: center;
-     
-}
-ol {
-  list-style: upper-roman inside none;
-}
-ul {
-    list-style: square inside none;
-}
-a {
-    color:rgba(233, 8, 147, 0.678)
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-a:hover {
-  color: rgb(0, 195, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif
-  ;
-}
