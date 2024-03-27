@@ -1,65 +1,52 @@
+* {
+  width: 200px;
+  height: auto;
+}
 body {
     background-image: url(../img/food-pattern.jpeg);
     background-repeat: repeat;
+    font-family: sans-serif, Geneva, Tahoma, sans-serif;
   }
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 img {
     width: 200px;
     height: 200px;
     padding: 10px;
-    margin: 30px;
-    border: dashed 20px #00ffea;
+    margin: 10px;
+    border: dashed 16px #ff00b3;
     border-radius: 30px 150px 30px 150px;
-    position: relative;
-    left: 100px;
+      
   }
 ol {
-  list-style: upper-roman inside none;
+  list-style:  inside none;
   }
 ul {
-    list-style: square inside none;
+    list-style: none inside none;
   }
-a {
-    color:rgba(0, 0, 0, 0.678)
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
-  }
-a:hover {
-  color: rgb(7, 8, 8);
-  font-family: Georgia, 'Times New Roman', Times, serif
-  ;
-  }
-a:visited {
-  color: #00ffea;
+a.link {
+    color:black;
+    font-weight: bold;
   }
 nav {
-  border: dotted 10px #070707;
-  padding: 5px;
-  margin:5px;
   text-align: center;
   }
-nav:visited {
-  color:#8f95ec
-}
-
-.title {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
-  background-color: #757575;
-  font-style: italic;
-  text-decoration: underline;
-  border: solid 10px #00ffea;
-  display: flex;
-}
-
+nav:visited,
+a:visited {
+  color: white;
+} 
 .head,
 .info {
-  font-family: Arial, Helvetica, sans-serif;
-  color:#000000;
+  color: greenyellow;
   border: solid 5px #00ffea;
-
+  border-radius: 50px;
   background-color: #757575;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  padding: 20px;
+
 }
 
 #main-title {
@@ -74,14 +61,11 @@ nav:visited {
   bottom: 0px;
   right: 0px;
   }
-#steps,
+/*#steps,
 #ingredients {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  color:#000000
-  border: solid 10px #5184eb;
-  border-radius: 30px;
-  padding: 10px;
-  margin: 30px;
-}
+  color:greenyellow
+  border: solid 10px cyan;
+  border-radius: 50px;
+  padding: 20px;
+}*/
 
