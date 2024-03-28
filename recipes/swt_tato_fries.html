@@ -7,14 +7,18 @@
     <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 </head>
 <body>
-    <header>
+  <header>
+    <div class="testcontainer">  
         <h1 class="title" id="bottom-logo">Odin Recipes</h1>
         <h1 class="title" id="main-title">Sweet Potato Fries</h1>
-            <img src="../img/swt-tato-fries.jpeg" alt="Img not available"/>
-        <h2 class="head">Not too salty. Not too sweet. Delicious. Nutritious. Easy as hell to make.</h2> 
-            <p class="info">This recipe is literally impossible to screw up. Everything is to taste and nothing about it is a science. From the amounts to the spices to the oven temp and timing. You literally CANNOT go wrong with this classic. Amazing taste and ridiculously simple process! If you're not careful, people might think you actually know what you are doing in the kitchen.</p>   
-    </header>
-    <main>
+        <img src="../img/swt-tato-fries.jpeg" alt="Img not available"/>
+        <h2 class="head">Not too salty. Not too sweet. Delicious. Nutritious. Easy as hell to make.</h2>  
+        <p class="info">This recipe is literally impossible to screw up. Everything is to taste and nothing about it is a science. From the amounts to the spices to the oven temp and timing. You literally CANNOT go wrong with this classic. Amazing taste and ridiculously simple process! If you're not careful, people might think you actually know what you are doing in the kitchen.</p>    
+    </div>  
+  </header> 
+  <main>
+    <div class="testcontainer">
+      <div class="testchild">
         <h2 class="title"><label for="ingredients">Ingredients:</label></h2>
         <ul name="ingredients" id="ingredients" class="info">    
             <li>
@@ -27,9 +31,9 @@
                 Salt and Pepper (to taste)
             </li>
         </ul>
-        <h2 class="title">
-            <label for="steps"><u>The Method (Steps):</label>
-        </h2>
+      </div>    
+      <div class="testchild">
+        <h2 class="title"><label for="steps"><u>The Method (Steps):</label></h2>
         <ol name="steps" id="steps" class="info">
             <li>
                 Preheat oven to about 400F
@@ -56,9 +60,12 @@
                 Freeze or refrigerate leftovers for a quick snack (...if there are any left)
             </li>
         </ol>
-    </main>
-    <br><br>
-    <footer>
+      
+      </div>
+    </div>      
+  </main>
+  <br><br>
+  <footer>
         <nav>
             <ul name="navigation" id="navigation" class="info">
             <label for="navigation">Navigation:</label>
@@ -73,7 +80,7 @@
                 </li>
             </ul>
         </nav>
-    </footer>
+  </footer>
     
 </body>
 </html>

@@ -1,18 +1,25 @@
-* {
-  width: 200px;
-  height: auto;
+
+.testcontainer {
+  display: flex;
+}
+.testcontainer div {
+  background: #757575;
+  border: 4px solid lime;
+  flex: 1;
+  margin: 10px;
+  
 }
 body {
     background-image: url(../img/food-pattern.jpeg);
     background-repeat: repeat;
     font-family: sans-serif, Geneva, Tahoma, sans-serif;
   }
-header,
+/*header,
 main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
+}*/
 img {
     width: 200px;
     height: 200px;
@@ -23,7 +30,7 @@ img {
       
   }
 ol {
-  list-style:  inside none;
+  list-style: decimal inside none;
   }
 ul {
     list-style: none inside none;
@@ -48,7 +55,9 @@ a:visited {
   padding: 20px;
 
 }
-
+#test {
+  display: inline;
+}
 #main-title {
   color: #00ffea;
   text-shadow: 4px 4px 1px #020808, 2px 2px 2px #464546;
